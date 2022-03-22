@@ -83,12 +83,9 @@ If you download and inspect the file, you will see output similar to the followi
 
 ## Clean up 
 
-```
 You can delete the Kinesis Delivery Stream and Kinesis Stream from within the Kinesis console. Click the Delivery streams link in the left navigation menu, choose the stream you created, and click the Delete delivery stream button. Click the Data streams link and choose your data stream, then click the Delete stream button.
 
 Empty the S3 bucket that you created and delete the bucket using the S3 console. You can click the “Empty” button and then the Delete button to accomplish this.
-
-```
 
 ### Delete the Kinesis Stream:
 `aws kinesis delete-stream --stream-name AWSCookbook702`
